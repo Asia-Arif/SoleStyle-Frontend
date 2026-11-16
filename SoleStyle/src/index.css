@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-cream text-ink font-sans}
+.btn{@apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-ink text-white font-semibold transition hover:bg-neutral-700 disabled:opacity-40}
+.btn-o{@apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-ink font-semibold transition hover:bg-ink hover:text-white}
+.inp{@apply w-full border border-neutral-300 rounded-lg px-4 py-2.5 bg-white focus:outline-none focus:border-ink}
